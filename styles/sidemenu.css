@@ -1,0 +1,246 @@
+h3 span {
+    background: linear-gradient(to right, var(--color8), var(--color5), var(--color1), var(--color2), var(--color3), var(--color5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+nav.menu {
+    background-color: #fafafa;
+    height: 100%;
+    text-align: center;
+    width: 15em;
+    position: fixed;
+    left: 0;
+    padding-left: 0;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border: solid 10px #d5d5d5a3;
+}
+
+
+
+.avatar h2 {
+    color: var(--color6);
+    margin: 10px 0;
+}
+
+.avatar h3 {
+    color: var(--color5);
+    margin-top: 0;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.menu .vertical__menu li {
+    position: relative;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .vertical__menu li::before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    border-right: solid 5px var(--menu-link-active-color);
+    background: var(--menu-link-active-bgColor);
+    transition: .35s ease left;
+}
+
+
+.menu .vertical__menu li a {
+    --menu-link-color: var(--primary-color);
+    position: relative;
+    background: linear-gradient(var(--menu-link-active-color) 0 100%) left/0 no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: background-size 0.45s 0.04s;
+    color: #302d2dcc;
+}
+
+
+.menu .vertical__menu li a::before {
+    position: absolute;
+    content: attr(data-text);
+    z-index: -1;
+    color: var(--menu-link-color);
+    background: #481501;
+    transition: .35s ease left;
+}
+
+
+
+.menu .vertical__menu li:nth-child(1) {
+    --menu-link-active-color: var(--color1);
+    --menu-link-active-bgColor: var(--coloractive1);
+}
+
+.menu .vertical__menu li:nth-child(2) {
+    --menu-link-active-color: var(--color2);
+    --menu-link-active-bgColor: var(--coloractive2);
+
+
+}
+
+.menu .vertical__menu li:nth-child(3) {
+    --menu-link-active-color: var(--color3);
+    --menu-link-active-bgColor: var(--coloractive3);
+
+
+}
+
+.menu .vertical__menu li:nth-child(4) {
+    --menu-link-active-color: var(--color4);
+    --menu-link-active-bgColor: var(--coloractive4);
+
+
+}
+
+.menu .vertical__menu li:nth-child(5) {
+    --menu-link-active-color: var(--color5);
+    --menu-link-active-bgColor: var(--coloractive5);
+
+
+}
+
+.menu .vertical__menu li:nth-child(6) {
+    --menu-link-active-color: var(--color6);
+    --menu-link-active-bgColor: var(--coloractive6);
+
+
+}
+
+.menu .vertical__menu li:nth-child(7) {
+    --menu-link-active-color: var(--color7);
+    --menu-link-active-bgColor: var(--coloractive7);
+
+
+}
+
+.menu .vertical__menu li:nth-child(8) {
+    --menu-link-active-color: var(--color8);
+    --menu-link-active-bgColor: var(--coloractive8);
+
+}
+
+.menu .vertical__menu .active::before{
+    left: -2%;
+}
+
+.menu .vertical__menu li:hover::before  {
+    left: 0%;
+}
+
+.menu .vertical__menu li:hover a {
+    background-size: 100%;
+}
+
+
+/******* footer *******/
+ul.footer {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    left: 24px;
+}
+
+
+ul.footer li {
+    display: inline;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: var(--linkin);
+    color: white;
+}
+
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-github {
+    background: var(--github);
+    color: white;
+}
+
+ul.footer li {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: -40px;
+}
+
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+ul.footer li:hover .tooltiptext {
+    visibility: visible;
+}
+
+
