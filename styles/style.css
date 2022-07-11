@@ -243,6 +243,8 @@ p.about__me {
 
 /*******************  ******************* end about ************************************** */
 
+/*******************  ******************* start skill ************************************** */
+
 .skill__wrapper {
     background-color: #ece6e2;
     height: 100%;
@@ -408,4 +410,40 @@ p.about__me {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #ffffff;
+}
+
+/*******************  ******************* end skill ************************************** */
+
+/*******************  ******************* start education ************************************** */
+.education__wrapper {
+    height: 100%;
+    background-color: #ffeedf;
+    padding: 30px;
+}
+
+.education__wrapper p.title {
+    color: var(--color4);
+    text-shadow: 1px 1px #8c8c8c;
+}
+
+.education__content div{
+    display: flex;
+    align-items: center;
+}
+
+.education__content {
+    color: var(--color6);
+}
+
+.education__content span i{
+    opacity: 0.7;
+}
+
+a.uni__name {
+    color: var(--color6) !important;
+    font-weight: bold;
+}
+
+.education__content div h5{
+    margin: 10px 0;
 }
