@@ -447,3 +447,89 @@ a.uni__name {
 .education__content div h5{
     margin: 10px 0;
 }
+
+.collapsible > p{
+    color: var(--color8);
+    font-weight: 500;
+    opacity: 0.9;
+    margin-bottom: 6px;
+}
+
+.collapsible > p > i,.collapsible > a > i{
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.collapsible > a{
+    color: var(--color8) !important;
+}
+
+.experience-wrapper {
+    background-color: #ece6e2;
+    height: 100%;
+    padding: 30px;
+}
+
+.experience-wrapper .title{
+    color: var(--color4);
+    text-shadow: 1px 1px #959595;
+    margin-bottom: 20px;
+}
+
+.project__content .image{
+    min-width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d2d2d2;
+    margin-right: 20px;
+}
+
+.project__content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.work__wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #f6ecdd;
+    height: 100%;
+    padding: 30px;
+}
+
+.work__wrapper .title{
+    color: var(--color3);
+}
+
+.project__content {
+    background: white;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 1px #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+.project__content div a{
+    color: var(--color3);
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+p.project__description {
+    line-height: 1.4;
+    color: var(--color8);
+}
+
+.project__content div{
+    display: flex;
+    flex-direction: column;
+}
+
+.project__content div span{
+    color: var(--color7);
+}
