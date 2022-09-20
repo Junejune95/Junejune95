@@ -3,7 +3,7 @@
 
 #### Now
 
-- :fire: Interested in Frontend Development, User Interface Design;
+- :fire: Interested in Frontend Development, User Interface Design; 
 
 #### Bio
 
