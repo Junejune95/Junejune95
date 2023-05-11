@@ -15,7 +15,6 @@
 
 - 👨‍💻 All of my projects are available at [https://seinmama.zunezune.me/](https://seinmama.zunezune.me/)
 
-- 📫 How to reach me **seinmama95@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
